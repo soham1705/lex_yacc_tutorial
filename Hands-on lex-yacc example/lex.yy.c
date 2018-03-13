@@ -747,7 +747,7 @@ YY_RULE_SETUP
 case 2:
 YY_RULE_SETUP
 #line 8 ".\\calc.l"
-{return exit;}
+{return exit_command;}
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
