@@ -13,11 +13,11 @@
 [a-zA-Z][_a-zA-Z0-9]*	return IDENTIFIER;
 [1-9][0-9]*				return INTEGER;
 [ \t\n]					;
-.						printf("Unexpected character\n")
+.						printf("Unexpected character\n");
 
 %%
 
 int yywrap(void)
 {
-	return 1;			\\using external C programs
+	return 1;			
 }
