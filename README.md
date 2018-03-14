@@ -10,7 +10,7 @@ Running lex (flex) for Windows users (basic example):
 
 Running yacc (bison) for Windows users:
 1. Create yacc file with extension .y
-2. Run `bison -d yaccfile.y`. This creates two files called 'y.tab.c' and 'y.tab.h'.
+2. Run `bison -dy yaccfile.y`. This creates two files called 'y.tab.c' and 'y.tab.h'.
 3. Create lex file with extension .l and run as instructed above.
 4. Run `gcc lex.yy.c y.tab.c -o output`, to create output file 'output.exe'.
 5. Run `.\output.exe` (or whatever the .exe file is called).
